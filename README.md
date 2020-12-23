@@ -1,12 +1,40 @@
-# Django-setUp
+# React-Django-Startup-Template
 
-Django setup template
+React and Django template
+Integrated Django with React
+![React](https://onextrapixel.com/wp-content/uploads/2016/04/reactjs-thumb.jpg)
+![Django](https://cdn.iconscout.com/icon/free/png-512/django-12-1175186.png)
+![React-Django](https://miro.medium.com/max/4000/1*lAMsvtB6afHwTQYCNM1xvw.png)
 
-## Important things to do AFTER CLONING
+## Dependencies
 
-1.  Add a secret key in `mysite/key.py` (generate it [here](https://djecrety.ir))
-2.  Uncomment the 7th line in `.gitignore`
-3.  Make migrations
-    - run `python manage.py makemigrations`
-    - then `python manage.py migrate`
-4.  Build your app👍👍
+Uses the following `NPM Modules` :
+
+- webpack
+- webpack-cli
+- @babel/core
+- babel-loader
+- @babel/preset-env
+- @babel/preset-react
+- react
+- react-dom
+- @material-ui/core
+- @babel/plugin-proposal-class-properties
+- react-router-dom
+- @babel/preset-react
+- @material-ui/icons
+  Uses the following `Python Packages`:
+- django
+- djangorestframework
+
+## Usage
+
+To just run after cloning
+run the following commands:
+
+- `cd frontend`
+- `npm run dev`
+
+In Another terminal , simultaneously run:
+
+- `python manage.py runserver`

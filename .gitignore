@@ -1,10 +1,11 @@
+# Node Modules
+node_modules
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-# Sensitive data
-# !important uncomment the following line after cloning👇👇👇
-# key.py
+
 # C extensions
 *.so
 

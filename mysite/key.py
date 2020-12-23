@@ -1,7 +1,0 @@
-
-"""
-
-GENERATE YOUR SECRET KEY AT 
-https://djecrety.ir
-"""
-SECRET_KEY = "PUT YOUR SECRET KEY HERE!!!"
